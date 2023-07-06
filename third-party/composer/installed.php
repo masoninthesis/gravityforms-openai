@@ -1,0 +1,5 @@
+<?php
+
+namespace GWiz_GF_OpenAI\Dependencies;
+
+return array('root' => array('name' => '__root__', 'pretty_version' => 'dev-master', 'version' => 'dev-master', 'reference' => 'd82182eb5ddd1b3ed9fd96f3c8df50ab8cd555fa', 'type' => 'library', 'install_path' => __DIR__ . '/../../', 'aliases' => array(), 'dev' => \false), 'versions' => array('__root__' => array('pretty_version' => 'dev-master', 'version' => 'dev-master', 'reference' => 'd82182eb5ddd1b3ed9fd96f3c8df50ab8cd555fa', 'type' => 'library', 'install_path' => __DIR__ . '/../../', 'aliases' => array(), 'dev_requirement' => \false), 'erusev/parsedown' => array('pretty_version' => '1.7.4', 'version' => '1.7.4.0', 'reference' => 'cb17b6477dfff935958ba01325f2e8a2bfa6dab3', 'type' => 'library', 'install_path' => __DIR__ . '/../erusev/parsedown', 'aliases' => array(), 'dev_requirement' => \false), 'inc2734/wp-github-plugin-updater' => array('pretty_version' => '3.1.2', 'version' => '3.1.2.0', 'reference' => 'ef2934ec77e7e8f746bd123beccc2cf693c49c58', 'type' => 'library', 'install_path' => __DIR__ . '/../inc2734/wp-github-plugin-updater', 'aliases' => array(), 'dev_requirement' => \false)));

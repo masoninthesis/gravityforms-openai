@@ -3,7 +3,6 @@
   "description": "A fork of a plugin for Gravity Forms and OpenAI by Gravity Wiz",
   "type": "wordpress-plugin",
   "require": {
-      "php": ">=7.2",
-      "inc2734/wp-github-plugin-updater": "^4.6"
+      "php": ">=7.2"
   }
 }

@@ -1,0 +1,281 @@
+# Copyright (C) 2023 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms OpenAI 1.0-beta-1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-g4dt9utDO\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-23T00:20:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: gravityforms-openai\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms OpenAI"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://gravitywiz.com/gravity-forms-openai/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Pair the magic of OpenAI's robust models with Gravity Forms' flexibility."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Wiz"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gravitywiz.com/"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:278
+#: class-gwiz-gf-openai.php:318
+msgid "Most capable GPT-3 model. Can do any task the other models can do, often with higher quality, longer output and better instruction-following. Also supports <a href=\"https://beta.openai.com/docs/guides/completion/inserting-text\" target=\"_blank\">inserting</a> completions within text."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:282
+msgid "Very capable, but faster and lower cost than Davinci."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:286
+msgid "Capable of straightforward tasks, very fast, and lower cost."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:290
+msgid "Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:294
+#: class-gwiz-gf-openai.php:322
+msgid "Most capable Codex model. Particularly good at translating natural language to code. In addition to completing code, also supports <a href=\"https://beta.openai.com/docs/guides/code/inserting-code\" target=\"_blank\">inserting</a> completions within code."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:298
+msgid "Almost as capable as Davinci Codex, but slightly faster. This speed advantage may make it preferable for real-time applications."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:303
+msgid "The same model used by <a href=\"https://chat.openai.com\" target=\"_blank\">ChatGPT</a>."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:306
+msgid "Same capabilities as the standard gpt-3.5-turbo model but with 4x the context length."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:309
+msgid "More capable than any GPT-3.5 model, able to do more complex tasks, and optimized for chat. Will be updated with the latest model iteration."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:312
+msgid "Same capabilities as the base gpt-4 mode but with 4x the context length. Will be updated with the latest model iteration."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:397
+msgid "Enter your OpenAI secret key."
+msgstr ""
+
+#. translators: placeholder is a <code> element
+#: class-gwiz-gf-openai.php:402
+#: class-gwiz-gf-openai.php:418
+msgid "Example: %s"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:413
+msgid "Enter your OpenAI organization if you belong to multiple."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:436
+msgid "Name"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:437
+#: class-gwiz-gf-openai.php:519
+msgid "OpenAI Endpoint"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:459
+msgid "Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:460
+msgid "Given a single message, the model will return a model-generated message as an output."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:461
+msgid "Given a prompt and an instruction, the model will return an edited version of the prompt."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:462
+msgid "Given a input text, outputs if the model classifies it as violating OpenAI's content policy."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:489
+msgid "Requires Waitlist"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:513
+msgid "Enter a name for this OpenAI feed. Only displayed on administrative screens."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:524
+msgid "Completions"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:529
+msgid "Chat Completions"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:534
+msgid "Edits"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:539
+msgid "Moderations"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:553
+#: class-gwiz-gf-openai.php:585
+#: class-gwiz-gf-openai.php:617
+#: class-gwiz-gf-openai.php:657
+msgid "OpenAI Model"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:624
+msgid "The input text to use as a starting point for the edit."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:632
+msgid "The instruction that tells the model how to edit the prompt."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:633
+msgid "Instruction"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:694
+msgid "The validation message to display if the content policy is violated."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:723
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:816
+msgid "Merge Tag"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:817
+msgid ""
+"Enable getting the output of the OpenAI result using a merge tag.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tPro Tip: This works with Gravity Forms Populate Anything's\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://gravitywiz.com/documentation/gravity-forms-populate-anything/#live-merge-tags\" target=\"_blank\">Live Merge Tags</a>!"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:875
+msgid "Map Result to Field"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:876
+msgid "Take the result and attach it to a field's value upon submission."
+msgstr ""
+
+#. translators: placeholder is a number
+#: class-gwiz-gf-openai.php:898
+msgid "Default: <code>%d</code> seconds."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:912
+msgid ""
+"The maximum number of <a href=\"https://beta.openai.com/tokenizer\" target=\"_blank\">tokens</a> to generate in the completion.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tThe token count of your prompt plus max_tokens cannot exceed the model's context\n"
+"\t\t\t\t\t\t\t\tlength. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
+msgstr ""
+
+#. translators: placeholder is a number
+#: class-gwiz-gf-openai.php:922
+#: class-gwiz-gf-openai.php:947
+#: class-gwiz-gf-openai.php:972
+#: class-gwiz-gf-openai.php:998
+#: class-gwiz-gf-openai.php:1023
+msgid "Default: <code>%d</code>"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:936
+msgid ""
+"What <a href=\"https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277\" target=\"_blank\">sampling</a>\n"
+"\t\t\t\t\t\t\t\ttemperature to use. Higher values means the model will take more risks. Try 0.9 for more\n"
+"\t\t\t\t\t\t\t\tcreative applications, and 0 (argmax sampling) for ones with a well-defined answer.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tWe generally recommend altering this or <code>top_p</code> but not both."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:961
+msgid ""
+"An alternative to sampling with temperature, called nucleus sampling,\n"
+"\t\t\t\t\t\t\t\twhere the model considers the results of the tokens with top_p probability mass. So 0.1\n"
+"\t\t\t\t\t\t\t\tmeans only the tokens comprising the top 10% probability mass are considered.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tWe generally recommend altering this or temperature but not both."
+msgstr ""
+
+#: class-gwiz-gf-openai.php:987
+msgid ""
+"Number between -2.0 and 2.0. Positive values penalize new tokens based\n"
+"\t\t\t\t\t\t\t\ton their existing frequency in the text so far, decreasing the model's likelihood to\n"
+"\t\t\t\t\t\t\t\trepeat the same line verbatim.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://beta.openai.com/docs/api-reference/parameter-details\" target=\"_blank\">See more information about frequency and presence penalties.</a>"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:1012
+msgid ""
+"Number between -2.0 and 2.0. Positive values penalize new tokens based\n"
+"\t\t\t\t\t\t\t\ton whether they appear in the text so far, increasing the model's likelihood to talk\n"
+"\t\t\t\t\t\t\t\tabout new topics.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://beta.openai.com/docs/api-reference/parameter-details\" target=\"_blank\">See more information about frequency and presence penalties.</a>"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:1081
+msgid "Sent request to OpenAI completions endpoint."
+msgstr ""
+
+#. translators: placeholders are the feed name, model, prompt
+#: class-gwiz-gf-openai.php:1084
+msgid "Sent request to OpenAI. Feed: %1$s, Endpoint: completions, Model: %2$s, Prompt: %3$s"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:1135
+msgid "Sent request to OpenAI chat/completions endpoint."
+msgstr ""
+
+#. translators: placeholders are the feed name, model, prompt
+#: class-gwiz-gf-openai.php:1138
+msgid "Sent request to OpenAI. Feed: %1$s, Endpoint: chat, Model: %2$s, Message: %3$s"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:1196
+msgid "Sent request to OpenAI edits endpoint."
+msgstr ""
+
+#. translators: placeholders are the feed name, model, prompt
+#: class-gwiz-gf-openai.php:1199
+msgid "Sent request to OpenAI. Feed: %1$s, Endpoint: edits, Model: %2$s, Input: %3$s, instruction: %4$s"
+msgstr ""
+
+#. translators: placeholders are the feed name, model, and input
+#: class-gwiz-gf-openai.php:1285
+msgid "Sent request to OpenAI. Feed: %1$s, Endpoint: moderations, Model: %2$s, Input: %3$s"
+msgstr ""
+
+#: class-gwiz-gf-openai.php:1323
+msgid "This submission violates our content policy."
+msgstr ""
